@@ -22,7 +22,6 @@ bot.onText(/\/echo (.+)/, (msg, match) => {
 
 // Listen for any kind of message. There are different kinds of
 // messages.
-/
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
 
